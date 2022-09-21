@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: ica-wireshark
+name: ica-wireshark
+description: Wireshark packet filtering and capture utility
+advice: 
+version: 3.6.8
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+ica-wireshark (3.6.8-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  9/21/2022 12:46:38
+
